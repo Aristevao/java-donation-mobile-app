@@ -21,10 +21,10 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/menu_blood_center"
-        android:name="com.fho.donation.fragments.BloodCenterFragment"
-        android:label="fragment_blood_center"
-        tools:layout="@layout/fragment_blood_center" />
+        android:id="@+id/menu_map"
+        android:name="com.fho.donation.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/menu_profile"
         android:name="com.fho.donation.fragments.ProfileFragment"

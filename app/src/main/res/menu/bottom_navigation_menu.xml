@@ -16,9 +16,9 @@
         android:title="@string/menu_home"/>
 
     <item
-        android:id="@+id/menu_blood_center"
-        android:icon="@drawable/ic_place"
-        android:title="@string/menu_blood_center"/>
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_map"
+        android:title="@string/menu_map"/>
 
     <item
         android:id="@+id/menu_profile"

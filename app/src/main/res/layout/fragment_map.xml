@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_light"
-    tools:context=".fragments.BloodCenterFragment">
+    tools:context=".fragments.MapFragment">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:contentDescription="@string/menu_blood_center"
-        android:src="@drawable/ic_place" />
+        android:contentDescription="@string/menu_map"
+        android:src="@drawable/ic_map" />
 </FrameLayout>

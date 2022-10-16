@@ -4,13 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_light"
-    tools:context=".fragments.NewsFragment">
+    tools:context=".fragments.InfoFragment">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_news"
-        android:contentDescription="@string/menu_news" />
-
+        android:contentDescription="@string/menu_info"
+        android:src="@drawable/ic_info" />
 </FrameLayout>

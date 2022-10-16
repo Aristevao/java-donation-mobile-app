@@ -1,16 +1,12 @@
 package com.fho.donation;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
-import androidx.navigation.NavDestination;
-import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
-
-import android.os.Bundle;
 
 import com.fho.donation.databinding.ActivityMainBinding;
 import com.google.android.material.badge.BadgeDrawable;

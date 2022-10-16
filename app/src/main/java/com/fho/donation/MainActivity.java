@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Limpa o valor do "não lido" quando o usuário clicar sobre o ícone do menu Notificações.
         navController.addOnDestinationChangedListener((navController, destination, bundle) -> {
-            if (destination.getId() == R.id.menu_news) {
-                BadgeDrawable badgeDrawable = binding.bottomNavigation.getBadge(R.id.menu_news);
+            if (destination.getId() == R.id.menu_notification) {
+                BadgeDrawable badgeDrawable = binding.bottomNavigation.getBadge(R.id.menu_notification);
                 if (badgeDrawable != null) {
                     badgeDrawable.setVisible(false);
                     badgeDrawable.clearNumber();
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initBadge() {
-        BadgeDrawable badge = binding.bottomNavigation.getOrCreateBadge(R.id.menu_news);
+        BadgeDrawable badge = binding.bottomNavigation.getOrCreateBadge(R.id.menu_notification);
         badge.setVisible(true);
         badge.setNumber(5); // TODO:  Deixar valor de "notificações não lidas" de forma dinâmica.
 

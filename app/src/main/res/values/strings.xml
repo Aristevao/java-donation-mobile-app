@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">donation</string>
 
-    <string name="menu_favorite">Favoritos</string>
-    <string name="menu_music">Músicas</string>
-    <string name="menu_place">Lugares</string>
-    <string name="menu_news">Notícias</string>
+    <string name="menu_notification">Notificações</string>
+    <string name="menu_info">Informações</string>
+    <string name="menu_home">Início</string>
+    <string name="menu_blood_center">Homocentros</string>
+    <string name="menu_profile">Perfil</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

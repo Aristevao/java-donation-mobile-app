@@ -3,26 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/menu_favorite">
+    app:startDestination="@id/menu_home">
 
     <fragment
-        android:id="@+id/menu_favorite"
-        android:name="com.fho.donation.fragments.FavoriteFragment"
-        android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        android:id="@+id/menu_notification"
+        android:name="com.fho.donation.fragments.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
     <fragment
-        android:id="@+id/menu_music"
-        android:name="com.fho.donation.fragments.MusicFragment"
-        android:label="fragment_music"
-        tools:layout="@layout/fragment_music" />
+        android:id="@+id/menu_info"
+        android:name="com.fho.donation.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
     <fragment
-        android:id="@+id/menu_place"
-        android:name="com.fho.donation.fragments.PlaceFragment"
-        android:label="fragment_place"
-        tools:layout="@layout/fragment_place" />
+        android:id="@+id/menu_home"
+        android:name="com.fho.donation.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/menu_news"
-        android:name="com.fho.donation.fragments.NewsFragment"
-        android:label="fragment_news"
-        tools:layout="@layout/fragment_news" />
+        android:id="@+id/menu_blood_center"
+        android:name="com.fho.donation.fragments.BloodCenterFragment"
+        android:label="fragment_blood_center"
+        tools:layout="@layout/fragment_blood_center" />
+    <fragment
+        android:id="@+id/menu_profile"
+        android:name="com.fho.donation.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

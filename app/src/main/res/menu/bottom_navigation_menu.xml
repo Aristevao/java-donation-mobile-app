@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/menu_notification"
-        android:icon="@drawable/ic_notification"
-        android:title="@string/menu_notification"/>
-
-    <item
         android:id="@+id/menu_info"
         android:icon="@drawable/ic_info"
         android:title="@string/menu_info"/>
+
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_map"
+        android:title="@string/menu_map"/>
 
     <item
         android:id="@+id/menu_home"
@@ -16,9 +16,9 @@
         android:title="@string/menu_home"/>
 
     <item
-        android:id="@+id/menu_map"
-        android:icon="@drawable/ic_map"
-        android:title="@string/menu_map"/>
+        android:id="@+id/menu_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/menu_notification"/>
 
     <item
         android:id="@+id/menu_profile"

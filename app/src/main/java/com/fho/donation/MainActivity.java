@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         navController = navHostFragment.getNavController();
         NavigationUI.setupWithNavController(binding.bottomNavigation, navController);
 
-        // Limpa o valor do "não lido" quando o usuário clicar sobre o ícone do menu Notificações
+        // Limpa o valor do "não lido" quando o usuário clicar sobre o ícone do menu Notificações.
         navController.addOnDestinationChangedListener((navController, destination, bundle) -> {
             if (destination.getId() == R.id.menu_notification) {
                 BadgeDrawable badgeDrawable = binding.bottomNavigation.getBadge(R.id.menu_notification);

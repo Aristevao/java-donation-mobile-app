@@ -35,7 +35,9 @@
             android:layout_marginTop="18dp"
             android:layout_marginBottom="10dp"
             android:orientation="vertical"
+            android:visibility="visible"
             app:cardBackgroundColor="@color/home"
+            app:cardElevation="0dp"
             app:contentPadding="30dp">
 
             <LinearLayout
